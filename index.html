@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lobster+Two:regular,italic,700,700italic"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic"
+      rel="stylesheet"
+    />
+    <title>Checkpoint-web-apps-foundation</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Password Check</h1>
+      <div class="box">
+        <input type="password" id="pwd1" class="field" />
+        <input type="password" id="pwd2" class="field" />
+        <button id="togglebutton" class="field">Show Password</button>
+      </div>
+      <div>
+        <p>Passwords are equal <span id="check-equal">❌</span></p>
+        <p>Lower Case Letters <span id="check-lowercase">❌</span></p>
+        <p>Upper Case Letters <span id="check-uppercase">❌</span></p>
+        <p>Contains Numbers <span id="check-numbers">❌</span></p>
+        <p>At least 10 character long <span id="check-10character">❌</span></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
